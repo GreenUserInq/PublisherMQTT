@@ -1,0 +1,17 @@
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\PublisherMQTT.exe
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\PublisherMQTT.deps.json
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\PublisherMQTT.runtimeconfig.json
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\PublisherMQTT.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\PublisherMQTT.pdb
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\MQTTnet.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.AssemblyInfoInputs.cache
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.AssemblyInfo.cs
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\Publishe.661B9D16.Up2Date
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\refint\PublisherMQTT.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.pdb
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.genruntimeconfig.cache
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\ref\PublisherMQTT.dll
