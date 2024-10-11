@@ -15,3 +15,4 @@ C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\refint
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.pdb
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.genruntimeconfig.cache
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\ref\PublisherMQTT.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.sourcelink.json

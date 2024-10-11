@@ -1,6 +1,7 @@
 ﻿using MQTTnet;
 using MQTTnet.Client;
 using PublisherMQTT;
+using PublisherMQTT.Factories;
 using System;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,40 +33,40 @@ class Program
             return;
         }
 
-        ////Пример создания или обновления данных
-        //var factoryM = new FactoryMessage();
-        //var rnd = new Random();
-        //string jsonData = factoryM.GetPostMessage(1, rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100)); // Данные в формате JSON
+        //Пример создания или обновления данных
+        var factoryM = new FactoryMessage();
+        var rnd = new Random();
+        string jsonData = factoryM.GetPostMessage(1, rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100)); // Данные в формате JSON
 
-        //// Публикуем данные в топик
-        //var message = new MqttApplicationMessageBuilder()
-        //    .WithTopic("devices/update")  // Указываем топик, куда отправляем данные
-        //    .WithPayload(jsonData)  // Данные (в данном случае JSON)
-        //    .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)  // Уровень QoS
-        //    .WithRetainFlag()
-        //    .Build();
+        // Публикуем данные в топик
+        var message = new MqttApplicationMessageBuilder()
+            .WithTopic("devices/update")  // Указываем топик, куда отправляем данные
+            .WithPayload(jsonData)  // Данные (в данном случае JSON)
+            .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)  // Уровень QoS
+            .WithRetainFlag()
+            .Build();
 
-        //await mqttClient.PublishAsync(message);
-        //Console.WriteLine("Сообщение отправлено в топик.");
+        await mqttClient.PublishAsync(message);
+        Console.WriteLine("Сообщение отправлено в топик.");
 
-        //Настройка обработчика входящих сообщений
-        mqttClient.ApplicationMessageReceivedAsync += e =>
-        {
-            Console.WriteLine("Получено сообщение:");
-            Console.WriteLine($"Топик: {e.ApplicationMessage.Topic}");
-            Console.WriteLine($"Сообщение: {Encoding.UTF8.GetString(e.ApplicationMessage.PayloadSegment)}");
+        ////Настройка обработчика входящих сообщений
+        //mqttClient.ApplicationMessageReceivedAsync += e =>
+        //{
+        //    Console.WriteLine("Получено сообщение:");
+        //    Console.WriteLine($"Топик: {e.ApplicationMessage.Topic}");
+        //    Console.WriteLine($"Сообщение: {Encoding.UTF8.GetString(e.ApplicationMessage.PayloadSegment)}");
 
-            return Task.CompletedTask;
-        };
+        //    return Task.CompletedTask;
+        //};
 
-        // Подписываемся на топик
-        await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("devices/update").Build());
-        Console.WriteLine("Подписка на топик выполнена.");
+        //// Подписываемся на топик
+        //await mqttClient.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("devices/update").Build());
+        //Console.WriteLine("Подписка на топик выполнена.");
 
-        // Ожидание для получения сообщений
-        Console.ReadLine();
-        
-        // Закрываем соединение
+        //// Ожидание для получения сообщений
+        //Console.ReadLine();
+
+        //Закрываем соединение
         await mqttClient.DisconnectAsync();
     }
 }

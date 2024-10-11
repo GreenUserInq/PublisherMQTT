@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PublisherMQTT
+namespace PublisherMQTT.Interfaces
 {
     interface IFactoryMessage
     {
@@ -14,7 +14,6 @@ namespace PublisherMQTT
             int Degree_of_clogging,
             int Structural_deformations,
             int Ambient_temperature,
-            int Pressure_of_transported_liquid,
             int Water_flow_rate,
             int Humidity_inside_the_pipe);
     }
