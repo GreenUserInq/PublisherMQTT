@@ -1,30 +1,25 @@
 ﻿using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Server;
-using PublisherMQTT.Factories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using PublisherMQTT.WaterMonitoring.Factories;
 
-namespace PublisherMQTT.Services
+namespace PublisherMQTT.Common.Services
 {
     class MqttService
     {
         private readonly IMqttClient mqttClient;
         private readonly MqttClientOptions mqttOptions;
 
-        public MqttService() 
+        public MqttService()
         {
             var factory = new MqttFactory();
             mqttClient = factory.CreateMqttClient();
 
             // Настройки подключения
             mqttOptions = new MqttClientOptionsBuilder()
-                .WithTcpServer("m8.wqtt.ru", 18242) 
-                .WithCredentials("u_AWC2CV", "TtkgrFkZ")  
-                .WithClientId("mrdivdiz@yandex.ru")  
+                .WithTcpServer("m8.wqtt.ru", 18242)
+                .WithCredentials("u_AWC2CV", "TtkgrFkZ")
+                .WithClientId("mrdivdiz@yandex.ru")
                 .WithCleanSession()
                 .Build();
         }
@@ -33,7 +28,7 @@ namespace PublisherMQTT.Services
         {
             try
             {
-                await mqttClient.ConnectAsync(mqttOptions, System.Threading.CancellationToken.None);
+                await mqttClient.ConnectAsync(mqttOptions, CancellationToken.None);
                 Console.WriteLine("Подключено к брокеру.");
             }
             catch (Exception ex)

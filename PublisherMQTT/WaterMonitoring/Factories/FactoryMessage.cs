@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PublisherMQTT.Enums;
-using PublisherMQTT.Interfaces;
+﻿using System.Text;
+using PublisherMQTT.WaterMonitoring.Enums;
+using PublisherMQTT.WaterMonitoring.Interfaces;
 
-namespace PublisherMQTT.Factories
+namespace PublisherMQTT.WaterMonitoring.Factories
 {
     class FactoryMessage : IFactoryMessage
     {
@@ -36,5 +32,5 @@ namespace PublisherMQTT.Factories
         {
             return $",\"name\":\"{parameter.ToString()}\",\"value\":{value}";
         }
-    }//"{\"id\":1,\"name\":\"Water level\",\"value\":0}"
+    }
 }
