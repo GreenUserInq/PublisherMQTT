@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\common\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\common\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\common\\models\\mqttconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\common\\models\\mqttconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\watermonitoring\\interfaces\\ifactorymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\watermonitoring\\interfaces\\ifactorymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\watermonitoring\\enums\\monitoringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\watermonitoring\\enums\\monitoringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\common\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\common\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|solutionrelative:publishermqtt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5DF0709-B463-4D7E-B81D-843D018726DE}|PublisherMQTT\\PublisherMQTT.csproj|c:\\users\\dmitry\\source\\repos\\publishermqtt\\publishermqtt\\watermonitoring\\models\\waterstructurestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,33 +61,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WaterStructureStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
-              "RelativeDocumentMoniker": "PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
-              "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
-              "RelativeToolTip": "PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:09:46.693Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\appsettings.json",
+              "RelativeDocumentMoniker": "PublisherMQTT\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\appsettings.json",
+              "RelativeToolTip": "PublisherMQTT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T10:26:16.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "MqttConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Common\\Models\\MqttConfig.cs",
+              "RelativeDocumentMoniker": "PublisherMQTT\\Common\\Models\\MqttConfig.cs",
+              "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Common\\Models\\MqttConfig.cs",
+              "RelativeToolTip": "PublisherMQTT\\Common\\Models\\MqttConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:01:51.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MqttService.cs",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Common\\Services\\MqttService.cs",
               "RelativeDocumentMoniker": "PublisherMQTT\\Common\\Services\\MqttService.cs",
               "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Common\\Services\\MqttService.cs",
               "RelativeToolTip": "PublisherMQTT\\Common\\Services\\MqttService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T07:27:34.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "IFactoryMessage.cs",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Interfaces\\IFactoryMessage.cs",
               "RelativeDocumentMoniker": "PublisherMQTT\\WaterMonitoring\\Interfaces\\IFactoryMessage.cs",
@@ -87,12 +108,11 @@
               "RelativeToolTip": "PublisherMQTT\\WaterMonitoring\\Interfaces\\IFactoryMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T11:29:26.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T11:29:26.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MonitoringParameters.cs",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Enums\\MonitoringParameters.cs",
               "RelativeDocumentMoniker": "PublisherMQTT\\WaterMonitoring\\Enums\\MonitoringParameters.cs",
@@ -100,12 +120,11 @@
               "RelativeToolTip": "PublisherMQTT\\WaterMonitoring\\Enums\\MonitoringParameters.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T11:14:35.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T11:14:35.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PublisherMQTT.csproj",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\PublisherMQTT.csproj",
               "RelativeDocumentMoniker": "PublisherMQTT\\PublisherMQTT.csproj",
@@ -117,33 +136,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Program.cs",
               "RelativeDocumentMoniker": "PublisherMQTT\\Program.cs",
               "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Program.cs",
               "RelativeToolTip": "PublisherMQTT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T15:56:41.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "WaterStructureStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
+              "RelativeDocumentMoniker": "PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
+              "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
+              "RelativeToolTip": "PublisherMQTT\\WaterMonitoring\\Models\\WaterStructureStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T07:09:46.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FactoryMessage.cs",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Factories\\FactoryMessage.cs",
               "RelativeDocumentMoniker": "PublisherMQTT\\WaterMonitoring\\Factories\\FactoryMessage.cs",
               "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\WaterMonitoring\\Factories\\FactoryMessage.cs",
               "RelativeToolTip": "PublisherMQTT\\WaterMonitoring\\Factories\\FactoryMessage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T11:32:33.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T11:32:33.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Container.targets",
               "DocumentMoniker": "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
@@ -155,13 +185,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Dockerfile",
               "RelativeDocumentMoniker": "PublisherMQTT\\Dockerfile",
               "ToolTip": "C:\\Users\\Dmitry\\source\\repos\\PublisherMQTT\\PublisherMQTT\\Dockerfile",
               "RelativeToolTip": "PublisherMQTT\\Dockerfile",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-19T05:48:21.685Z"
             },

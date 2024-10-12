@@ -16,3 +16,11 @@ C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\Publis
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.genruntimeconfig.cache
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\ref\PublisherMQTT.dll
 C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\obj\Debug\net8.0\PublisherMQTT.sourcelink.json
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Dmitry\source\repos\PublisherMQTT\PublisherMQTT\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
