@@ -50,7 +50,7 @@ namespace PublisherMQTT.Common.Services
         }
 
         /// <summary>
-        /// Отправка данных из строки в топик
+        /// Отправка данных в топик 
         /// </summary>
         /// <param name="jsonData"></param>
         /// <returns></returns>

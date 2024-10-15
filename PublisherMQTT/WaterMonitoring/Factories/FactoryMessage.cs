@@ -8,12 +8,12 @@ namespace PublisherMQTT.WaterMonitoring.Factories
     {
         public string GetPostMessage(
             int Id,
-            int Water_level = 0,
-            int Degree_of_clogging = 0,
-            int Structural_deformations = 0,
-            int Ambient_temperature = 0,
-            int Water_flow_rate = 0,
-            int Humidity_inside_the_pipe = 0)
+            int Water_level,
+            int Degree_of_clogging,
+            int Structural_deformations,
+            int Ambient_temperature,
+            int Water_flow_rate,
+            int Humidity_inside_the_pipe)
         {
             var builder = new StringBuilder();
             builder.Append($"{{\"id\":{Id}");
