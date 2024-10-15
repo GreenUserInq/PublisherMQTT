@@ -1,0 +1,9 @@
+{
+  "ID": 1,
+  "WaterLevel": 13,
+  "DegreeOfClogging": 0,
+  "StructuralDeformations": 61,
+  "AmbientTemperature": 71,
+  "WaterFlowRate": 26,
+  "HumidityInsideThePipe": 1
+}

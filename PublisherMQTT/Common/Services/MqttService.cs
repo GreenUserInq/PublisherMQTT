@@ -31,6 +31,10 @@ namespace PublisherMQTT.Common.Services
                 .Build();
         }
 
+        /// <summary>
+        /// Подключение к брокеру
+        /// </summary>
+        /// <returns></returns>
         public async Task ConnectAsync()
         {
             try
@@ -45,12 +49,13 @@ namespace PublisherMQTT.Common.Services
             }
         }
 
-        public async Task PublishDataAsync()
+        /// <summary>
+        /// Отправка данных из строки в топик
+        /// </summary>
+        /// <param name="jsonData"></param>
+        /// <returns></returns>
+        public async Task PublishDataAsync(string jsonData)
         {
-            //Пример создания или обновления данных
-            var factoryM = new FactoryMessage();
-            var rnd = new Random();
-            string jsonData = factoryM.GetPostMessage(1, rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100), rnd.Next(100)); // Данные в формате JSON
 
             // Публикуем данные в топик
             var message = new MqttApplicationMessageBuilder()
@@ -64,6 +69,11 @@ namespace PublisherMQTT.Common.Services
             Console.WriteLine("Сообщение отправлено в топик.");
         }
 
+        /// <summary>
+        /// подписка на обновление данных в топике
+        /// </summary>
+        /// <param name="topic"></param>
+        /// <returns></returns>
         public async Task SubscribeAndReceiveAsync(string topic)
         {
             // Подписываемся на указанный топик
@@ -84,7 +94,10 @@ namespace PublisherMQTT.Common.Services
         }
 
 
-
+        /// <summary>
+        /// Отключение от брокера
+        /// </summary>
+        /// <returns></returns>
         public async Task Disconect()
         {
             await _mqttClient.DisconnectAsync();
