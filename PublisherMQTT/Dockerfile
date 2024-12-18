@@ -1,28 +1,19 @@
- # См. статью по ссылке https://aka.ms/customizecontainer, чтобы узнать как настроить контейнер отладки и как Visual Studio использует этот Dockerfile для создания образов для ускорения отладки.
-
-# Этот этап используется при запуске из VS в быстром режиме (по умолчанию для конфигурации отладки)
 FROM mcr.microsoft.com/dotnet/runtime:8.0 AS base
 USER app
 WORKDIR /app
 
-
-# Этот этап используется для сборки проекта службы
+# Используем образ SDK для сборки приложения
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["PublisherMQTT/PublisherMQTT.csproj", "PublisherMQTT/"]
-RUN dotnet restore "./PublisherMQTT/PublisherMQTT.csproj"
+COPY ["PublisherMQTT/PublisherMQTT.csproj", "./"]
+RUN dotnet restore "./PublisherMQTT.csproj"
 COPY . .
-WORKDIR "/src/PublisherMQTT"
-RUN dotnet build "./PublisherMQTT.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "PublisherMQTT.csproj" -c Release -o /app/build
 
-# Этот этап используется для публикации проекта службы, который будет скопирован на последний этап
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./PublisherMQTT.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-# Этот этап используется в рабочей среде или при запуске из VS в обычном режиме (по умолчанию, когда конфигурация отладки не используется)
-FROM base AS final
+# Используем образ Runtime для запуска приложения
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/build .
 ENTRYPOINT ["dotnet", "PublisherMQTT.dll"]
+
+
